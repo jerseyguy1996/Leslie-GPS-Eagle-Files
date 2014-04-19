@@ -1,0 +1,53 @@
+Partlist
+
+Exported from Version1.sch at 3/29/14 1:00 PM
+
+EAGLE Version 6.2.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device                                  Package                    Library      Sheet
+
+C1       .1 uF          C-USC0603                               C0603                      rcl          1
+C2       10 uF          C-USC0603                               C0603                      rcl          1
+C3       10uF           C-USC0603                               C0603                      rcl          1
+C4       10uF           C-USC0603                               C0603                      rcl          1
+C5       10 uF          C-USC0603                               C0603                      rcl          1
+C7       4.7uF          C-USC0603                               C0603                      rcl          1
+C8       4.7uF          C-USC0603                               C0603                      rcl          1
+C9       10 uF          C-USC0603                               C0603                      rcl          1
+C10      10uF           C-USC0603                               C0603                      rcl          1
+C11      1 uF           C-USC0805                               C0805                      resistor     1
+C12      1 uF           C-USC0805                               C0805                      resistor     1
+C13      1 uF           C-USC0805                               C0805                      resistor     1
+C14      1 uF           C-USC0805                               C0805                      resistor     1
+C15      2.2 uF         C-USC0805                               C0805                      resistor     1
+C16      2.2 uF         C-USC0805                               C0805                      resistor     1
+D1       DB2X20700L     DIODE-PANASONIC-DB2X20700LMINI2-F4-B    MINI2-F4-B_DIODE           Saleem_lib   1
+LCD1                    DISP_OLED_UG-2832HSWEG04WRAPAROUND      UG-2832HSWEG04_WRAPAROUND  microbuilder 1
+LED1                    LEDSMT1206                              1206                       led          1
+R1       10K            R-US_R0805                              R0805                      resistor     1
+R2       10K            R-US_R0805                              R0805                      resistor     1
+R3       2.49k          R-US_R0805                              R0805                      resistor     1
+R4       10K            R-US_R0805                              R0805                      resistor     1
+R5       30K            R-US_R0805                              R0805                      resistor     1
+R6       154            R-US_R0805                              R0805                      resistor     1
+R7       100            R-US_R0603                              R0603                      resistor     1
+R8       10K            R-US_R0805                              R0805                      resistor     1
+R9       390K           R-US_R0805                              R0805                      adafruit     1
+SJ1                     SJ2W                                    SJ_2                       jumper       1
+U$2      GPS            FASTRAX_UP501_GPS                       FASTRAX_GPS                Saleem_lib   1
+U$3      TPS63001       TPS63001-3.3V-BUCK/BOOSTSON-10          SON-10                     Saleem_lib   1
+U$4      P-Chan         NXP-MOSFET-PMV160UP,215                 SOT-23                     Saleem_lib   1
+U$5      INDUCTOR       VLS3015-INDUCTORVLS-SERIES              VLS3015E-INDUCTOR          Saleem_lib   1
+U$6      SD             MOLEX_MICROSD_502702-0891JAE            JA-MICROSD-ST9S008V4AR1500 Saleem_lib   1
+U$7      ICSP           MOLEX2.54MM-6PIN-2X3ICSP                2.54MM2X3                  Saleem_lib   1
+U$8      MCP73831T      MICROCHIP-MCP73831-LIPO-CHARGERSOT-23-5 SOT-23-5                   Saleem_lib   1
+U$9      USB            MOLEX-MICRO-USB47346-0001               MOLEX-MICRO-USB-47346-0001 Saleem_lib   1
+U$10     P-Chan         NXP-MOSFET-PMV160UP,215                 SOT-23                     Saleem_lib   1
+U$12     OSC            MURATA-RESONATOR                        MURATA-8MHZ-RESONATOR      Saleem_lib   1
+U$17     CONTROL        SWITCH-OMRON-B3U-3000P                  SWITCH-SMALL               Saleem_lib   1
+U$18     RESET          SWITCH-OMRON-B3U-3000P                  SWITCH-SMALL               Saleem_lib   1
+U1       MEGA328        ATMEGA328-TQFP32-ARDUINOARDUINO-LABELS  MEGA328-TQFP32             Saleem_lib   1
+UART                    MA06-1                                  MA06-1                     con-lstb     1
+$EAGLEDIR/lbr:$HOME/external_lbrs
