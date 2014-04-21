@@ -275,20 +275,20 @@
 <text x="1.27" y="-15.24" size="1.27" layer="21">&gt;VALUE</text>
 </package>
 <package name="JA-MICROSD-ST9S008V4AR1500">
-<smd name="NC@1" x="3" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
-<smd name="CS@2" x="1.9" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
-<smd name="DI@3" x="0.8" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
-<smd name="VDD@4" x="-0.3" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
-<smd name="SCLK@5" x="-1.4" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
-<smd name="VSS@6" x="-2.5" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
-<smd name="DO@7" x="-3.6" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
-<smd name="NC@8" x="-4.7" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
-<smd name="GND@10" x="6.9" y="-7.8" dx="1.1" dy="1.6" layer="1"/>
-<smd name="GND@9" x="-6.225" y="-7.5" dx="1.45" dy="1.4" layer="1"/>
-<smd name="GND@13" x="-6.375" y="-1.65" dx="1.15" dy="0.9" layer="1"/>
-<smd name="DETECT@14" x="0.25" y="6.55" dx="0.8" dy="1.1" layer="1"/>
-<smd name="GND@12" x="2.15" y="6.625" dx="1.1" dy="0.95" layer="1"/>
-<smd name="GND@11" x="-3.4" y="6.625" dx="1.1" dy="0.95" layer="1"/>
+<smd name="1" x="3" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
+<smd name="2" x="1.9" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
+<smd name="3" x="0.8" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
+<smd name="4" x="-0.3" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
+<smd name="5" x="-1.4" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
+<smd name="6" x="-2.5" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
+<smd name="7" x="-3.6" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
+<smd name="8" x="-4.7" y="-6.1" dx="0.8" dy="1.6" layer="1"/>
+<smd name="10" x="6.9" y="-7.8" dx="1.1" dy="1.6" layer="1"/>
+<smd name="9" x="-6.225" y="-7.5" dx="1.45" dy="1.4" layer="1"/>
+<smd name="13" x="-6.375" y="-1.65" dx="1.15" dy="0.9" layer="1"/>
+<smd name="14" x="0.25" y="6.55" dx="0.8" dy="1.1" layer="1"/>
+<smd name="12" x="2.15" y="6.625" dx="1.1" dy="0.95" layer="1"/>
+<smd name="11" x="-3.4" y="6.625" dx="1.1" dy="0.95" layer="1"/>
 <wire x1="-6.7" y1="-8.7" x2="-6.7" y2="6.5" width="0.127" layer="21"/>
 <wire x1="7" y1="-8.7" x2="7" y2="6.5" width="0.127" layer="21"/>
 <wire x1="-6.7" y1="6.5" x2="7" y2="6.5" width="0.127" layer="21"/>
@@ -625,6 +625,7 @@
 </symbols>
 <devicesets>
 <deviceset name="ATMEGA328-TQFP32-ARDUINO">
+<description>556-ATMEGA328P-AU</description>
 <gates>
 <gate name="G$1" symbol="ATMEGA328_ARDUINO-NANO" x="0" y="2.54"/>
 </gates>
@@ -804,20 +805,20 @@
 </device>
 <device name="JAE" package="JA-MICROSD-ST9S008V4AR1500">
 <connects>
-<connect gate="G$1" pin="CS@2" pad="CS@2"/>
-<connect gate="G$1" pin="DETECT@13" pad="DETECT@14"/>
-<connect gate="G$1" pin="DI@3" pad="DI@3"/>
-<connect gate="G$1" pin="DO@7" pad="DO@7"/>
-<connect gate="G$1" pin="GND@10" pad="GND@10"/>
-<connect gate="G$1" pin="GND@11" pad="GND@11"/>
-<connect gate="G$1" pin="GND@12" pad="GND@12"/>
-<connect gate="G$1" pin="GND@14" pad="GND@13"/>
-<connect gate="G$1" pin="GND@6" pad="VSS@6"/>
-<connect gate="G$1" pin="GND@9" pad="GND@9"/>
-<connect gate="G$1" pin="NC@1" pad="NC@1"/>
-<connect gate="G$1" pin="NC@8" pad="NC@8"/>
-<connect gate="G$1" pin="SCLK@5" pad="SCLK@5"/>
-<connect gate="G$1" pin="VDD@4" pad="VDD@4"/>
+<connect gate="G$1" pin="CS@2" pad="2"/>
+<connect gate="G$1" pin="DETECT@13" pad="14"/>
+<connect gate="G$1" pin="DI@3" pad="3"/>
+<connect gate="G$1" pin="DO@7" pad="7"/>
+<connect gate="G$1" pin="GND@10" pad="10"/>
+<connect gate="G$1" pin="GND@11" pad="11"/>
+<connect gate="G$1" pin="GND@12" pad="12"/>
+<connect gate="G$1" pin="GND@14" pad="13"/>
+<connect gate="G$1" pin="GND@6" pad="6"/>
+<connect gate="G$1" pin="GND@9" pad="9"/>
+<connect gate="G$1" pin="NC@1" pad="1"/>
+<connect gate="G$1" pin="NC@8" pad="8"/>
+<connect gate="G$1" pin="SCLK@5" pad="5"/>
+<connect gate="G$1" pin="VDD@4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -13580,6 +13581,7 @@ type 0309, grid 2.5 mm</description>
 <sheets>
 <sheet>
 <plain>
+<text x="111.76" y="-33.02" size="3.81" layer="91" rot="R90">Battery</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="-81.28" y="20.32"/>
@@ -13642,6 +13644,9 @@ type 0309, grid 2.5 mm</description>
 <junction x="86.36" y="-10.16"/>
 <pinref part="U$10" gate="G$1" pin="DRAIN"/>
 <label x="81.28" y="-5.08" size="1.778" layer="95"/>
+<wire x1="99.06" y1="-5.08" x2="109.22" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-5.08" x2="109.22" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="99.06" y="-5.08"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
@@ -13662,6 +13667,9 @@ type 0309, grid 2.5 mm</description>
 <wire x1="53.34" y1="43.18" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
 <junction x="53.34" y="43.18"/>
 <junction x="53.34" y="38.1"/>
+<wire x1="53.34" y1="50.8" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
+<junction x="53.34" y="50.8"/>
+<label x="58.42" y="58.42" size="3.81" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GND@3"/>
@@ -13759,9 +13767,10 @@ type 0309, grid 2.5 mm</description>
 <wire x1="99.06" y1="12.7" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="12.7" x2="119.38" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="10.16" x2="119.38" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="-43.18" x2="99.06" y2="-43.18" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="-43.18" x2="109.22" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="99.06" y="-43.18"/>
 <pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="-43.18" x2="99.06" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="22.86" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
 <junction x="99.06" y="22.86"/>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -13769,6 +13778,8 @@ type 0309, grid 2.5 mm</description>
 <junction x="119.38" y="10.16"/>
 <label x="68.58" y="-40.64" size="1.778" layer="95"/>
 <label x="121.92" y="2.54" size="1.778" layer="95"/>
+<wire x1="109.22" y1="-43.18" x2="109.22" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="109.22" y="-43.18"/>
 </segment>
 <segment>
 <label x="-73.66" y="-58.42" size="1.778" layer="95" rot="R90"/>
@@ -13985,6 +13996,9 @@ type 0309, grid 2.5 mm</description>
 <pinref part="U$3" gate="G$1" pin="VOUT"/>
 <wire x1="45.72" y1="33.02" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
 <label x="45.72" y="45.72" size="1.778" layer="95" rot="R90"/>
+<wire x1="45.72" y1="50.8" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
+<junction x="45.72" y="50.8"/>
+<label x="45.72" y="55.88" size="3.81" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="UART" gate="1" pin="3"/>
@@ -14244,7 +14258,7 @@ type 0309, grid 2.5 mm</description>
 </segment>
 <segment>
 <wire x1="-7.62" y1="-15.24" x2="-12.7" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-25.4" y="-15.24" size="1.778" layer="95"/>
+<label x="-20.32" y="-15.24" size="1.778" layer="95"/>
 <pinref part="U$6" gate="G$1" pin="VDD@4"/>
 </segment>
 <segment>
